@@ -1,0 +1,140 @@
+# AUTOR: v0jt4s
+# Web: http://python-programming.marzec.eu
+
+# HOT 16
+
+# 1. man
+#        man - an interface to the on-line reference manuals
+
+# 2. passwd
+#        passwd - change user password
+
+# 3. pwd
+#        pwd - print name of current/working directory
+
+# 4. ls
+#        ls - list directory contents
+
+# 5. mkdir
+#        mkdir - make directories
+
+# 6. cp
+#        cp - copy files and directories
+
+# 7. mv
+#        mv - move (rename) files
+
+# 8. rm
+#        rm - remove files or directories
+
+# 9. chmod
+#        chmod - change file mode bits
+
+# 10. chown
+#        chown - change file owner and group
+
+# 11. touch
+#        touch - change file timestamps
+
+# 12. mount
+#        mount - mount a filesystem
+
+# 13. umount
+#        umount - unmount file systems
+
+# 14. cat
+#        cat - concatenate files and print on the standard output
+
+# 15. head
+#        head - output the first part of files
+
+# 16. tail
+#        tail - output the last part of files
+
+
+
+# HOT 32
+
+# 17. htop
+#        htop - interactive process viewer
+
+# 18. kill
+#        kill - send a signal to a process
+
+# 19. mail
+#        mail.mailutils - process mail messages
+
+# 20. scp
+#      scp — secure copy (remote file copy program)
+
+# 21. wc
+#        wc - print newline, word, and byte counts for each file
+
+# 22. printenv
+#        printenv - print all or part of environment
+
+# 23. find
+#        find - search for files in a directory hierarchy
+
+# 24. grep
+#        grep, egrep, fgrep, rgrep - print lines that match patterns
+
+# 25. xargs
+#        xargs - build and execute command lines from standard input
+
+# 26. ps
+#        ps - report a snapshot of the current processes.
+
+# 27. uname
+#        uname - print system information
+
+# 28. df
+#        df - report file system disk space usage
+
+# 29. du
+#        du - estimate file space usage
+
+# 30. cron
+#        cron - daemon to execute scheduled commands (Vixie Cron)
+
+# 31. passwd
+#        passwd - change user password
+
+# 32. history
+#        history - GNU History Library
+
+
+
+# Lista wygenerowana automatycznie z pliku:
+######################################################################################################################
+##!/bin/bash
+## Utworzenie listy elementow
+#COMMAND_ARR=(man passwd pwd ls mkdir cp mv rm chmod chown touch mount umount cat head tail)
+#COMMAND_ARR+=(htop kill mail scp wc printenv find grep xargs ps uname df du cron passwd history)
+#echo "# AUTOR: v0jt4s"
+#echo "# Web: http://python-programming.marzec.eu"
+#echo 
+#echo "# HOT 16"
+#echo 
+#licz=0
+#for val in ${COMMAND_ARR[@]}
+#do
+#    licz=$((licz+1))
+#    echo "# ${licz}. $val"
+#    if [ "$val" == "cd" ] 
+#    then
+#        echo "# cd - change directory"
+#    else
+#        COMMAND_NAME=$(man $val |head -4 |tail -1)
+#        echo "# $COMMAND_NAME"
+#    fi
+#    echo 
+#    if [ $licz == 16 ]
+#    then
+#       echo 
+#        echo 
+#        echo "# HOT 32"
+#        echo     
+#    fi
+#done
+######################################################################################################################
